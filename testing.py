@@ -1,5 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+import time
 
 
 def test_login():
@@ -15,6 +16,3 @@ def test_login():
     assert "inventory" in driver.current_url
 
     driver.quit()
-
-
-fghjkl
